@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "profile": "pwm-mvp0",
+  "provider": "opencode",
+  "model": "default",
+  "timeout_seconds": 60,
+  "providers": {
+    "opencode": {
+      "args": [
+        "run",
+        "--format",
+        "json"
+      ]
+    }
+  }
+}
